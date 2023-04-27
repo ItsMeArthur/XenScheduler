@@ -137,6 +137,7 @@ namespace XenScheduler.ViewModels
         public void ChangeDateSelection(DateTime dateTime)
         {
             Calendar?.ChangeDateSelection(dateTime);
+            Shell.Current.DisplayAlert("Date", dateTime.ToString(), "OK");
         }
         public void ChangeCalendarVisibility(bool isVisible)
         {
