@@ -2,7 +2,6 @@
 using XCalendar.Core.Enums;
 using XCalendar.Core.Extensions;
 using XCalendar.Core.Models;
-using XenScheduler.Helpers;
 
 namespace XenScheduler.ViewModels
 {
